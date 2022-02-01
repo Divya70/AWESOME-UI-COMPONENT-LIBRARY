@@ -43,12 +43,12 @@
   }
 
 
-  .nav-social-media{
+/*   .nav-social-media{
         display: flex;
         list-style: none;
         text-decoration: none;
         margin-right: 3rem;
-  }
+  } */
   .cl-name{
         display: flex;
         flex-direction: column;
