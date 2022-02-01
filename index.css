@@ -5,7 +5,7 @@
 :root {
       --primary-color: #F94892;
       --secondary-color: #323232;
-      --black-color: hsl(0, 0%, 0%);
+      --black-color: #323232;
       --white-color: #F9F9F9;
   }
   body{
