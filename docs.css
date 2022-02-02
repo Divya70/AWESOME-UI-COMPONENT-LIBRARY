@@ -138,11 +138,11 @@ p{
 }
 iframe{
       padding: 30px;
-       style="width: 979px; 
+      width: 979px; 
       height: 246px;
       border:0; 
       transform: scale(1);
-      overflow:hidden;"
+      overflow:hidden;
 }
 /*  Footer Code*/
 
