@@ -1,0 +1,255 @@
+
+/* Main Content For Badge*/
+
+.main-content{
+      height: 100vh;
+    background-color: var(--black-color);
+      grid-area: main;
+      overflow-y:scroll;
+      }
+ /* Badge on icons code */
+.badge-title{
+      margin: 2rem 0 0 5rem;
+      color: var(--primary-color);
+      font-size: 3rem;
+}
+.badge-details{
+      padding: 10px;
+      color: var(--white-color);
+      font-size: 1.3rem;
+      width: 900px;
+      padding-left: 5rem;
+}
+.badge-point{
+      padding: 10px;
+      color: var(--white-color);
+      font-size: 1rem;
+      width: 900px;
+      padding-left: 5rem;
+}
+.avtar-point{
+      padding: 10px;
+      color: var(--white-color);
+      font-size: 1rem;
+      width: 900px;
+      padding-left: 5rem;
+}
+.text-point{
+      padding: 10px;
+      color: var(--white-color);
+      font-size: 1rem;
+      width: 900px;
+      padding-left: 5rem;
+}
+.badge-on-icons{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+      height: 100px;
+      width: 90%;
+      border: 1px solid rgb(192, 192, 192);
+      margin-left: 2rem;
+}
+.icon-heading{
+      margin: 2rem 0 0 5rem;
+      color: var(--primary-color);
+      font-size: 2rem;
+}
+
+.badge{
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      border: none;
+      outline: none;
+      border-radius: 50%;
+      margin-left: 50px;
+      font-size: 1.5rem;
+      color: var(--white-color);
+    }
+    .icon-badge {
+      position: absolute;
+      top: -10px; 
+      right: -10px;
+      width: 27px;
+      height: 27px;
+      background: red;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      font-size: 20px;
+    }
+    .discord-icon{
+          background-color: #6867AC;
+    }
+    .whatsapp-icon{
+      background-color: #B2EA70;
+}
+.email-icon{
+      background-color: #AAAAAA;
+}
+.facebook-icon{
+      background-color: #3B5998;
+}
+.icone-badge-frame{
+      margin-top: 2rem;
+      width: 1100px; 
+    height: 460px;
+    border:0; 
+    margin-left: 1.9rem;
+}
+/* badge on text code */
+.text-heading {
+      text-align: center;
+      padding: 20px;
+      font-size: 2rem;
+      color: var(--primary-color);
+    }
+    .text-container {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      color: #def3ec;
+    }
+    .text {
+      position: relative;
+    }
+    
+    .small-badge {
+      position: relative;
+      top: -35px;
+      right: -80px;
+      width: 27px;
+      height: 27px;
+      background: #52734D;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+    }
+    .medium-text {
+      font-size: 1.4rem;
+    }
+    .medium-badge {
+      position: relative;
+      top: -52px;
+      right: -120px;
+      width: 35px;
+      height: 35px;
+      background: #b3541e;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      font-size: 1.3rem;
+    }
+    
+    .action-button {
+      margin-left: 20px;
+      padding: 7px;
+      background: rgb(0, 140, 255);
+      border-radius: 5px;
+      border: none;
+      box-shadow: 2px 2px 3px;
+      color: white;
+    }
+    .action-badge {
+      position: relative;
+      top: -45px;
+      right: -140px;
+      width: 25px;
+      height: 25px;
+      background: rgb(255, 47, 109);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+    }
+    .text-badge-iframe{
+          margin-top: 2rem;
+         width: 1113px; 
+       height: 460px;
+       border:0; 
+       margin-left: 2rem;   
+}
+
+/* badge on avtar code */
+
+.avtar-heading{
+      margin: 2rem 0 0 5rem;
+      color: var(--primary-color);
+      font-size: 2rem;
+      margin-top: -5rem;
+}
+.badge-on-avtar{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+      height: 200px;
+      width: 90%;
+      border: 1px solid rgb(192, 192, 192);
+      margin-left: 2rem;
+}
+ .badge-on-avtar img{
+      height: 300px;
+      clip-path: circle();
+      margin-left: 50px;  
+}
+.badge-img{
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 150px;
+      height: 150px;
+      border: none;
+      outline: none;
+      border-radius: 50%;
+      margin-left: 50px;
+      font-size: 1.5rem;
+      color: var(--white-color);
+    }
+    .badge-count{
+      position: absolute;
+      bottom: 7px; 
+      right: -10px;
+    
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      font-size: 20px;
+    }
+    .badge-img1{
+      background: green;
+      width: 27px;
+      height: 27px;
+    }
+    .badge-img2{
+      background: red;
+      width: 20px;
+      height: 20px;
+    }
+    .badge-img3{
+      width: 20px;
+      height: 20px;
+      background: grey;
+    }
+   .avtar-badge-iframe{
+      margin-top: 2rem;
+      width: 1113px; 
+    height: 460px;
+    border:0; 
+    margin-left: 2rem; 
+   }
