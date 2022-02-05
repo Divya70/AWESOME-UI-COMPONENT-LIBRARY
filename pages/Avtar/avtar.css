@@ -25,7 +25,7 @@
       display: flex;
     flex-wrap: wrap;
     padding: 1rem;
-    margin: 2rem 0;
+    margin: 2rem;
     border: 2px solid var(--black-color);
     align-items: baseline;
     border-radius: 0.3rem;
@@ -90,7 +90,7 @@
       align-items: center;
       background-color: var(--primary-color);
       border-radius: 50%;
-      border: 2px solid white;
+      border: 2px solid var(--white-color);
       font-weight: 600;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       color: var(--white-color);
