@@ -1,0 +1,168 @@
+
+/* Main Content Code*/
+
+/* Contained button code */
+
+.main-content{
+      height: 100vh;
+    background-color: var(--black-color);
+      grid-area: main;
+      overflow-y: scroll;
+      }
+.contained-button-title{
+      margin: 2rem 0 0 5rem;
+      color: var(--primary-color);
+      font-size: 3rem;
+}
+.contained-button-details{
+      padding: 1rem;
+      color: var(--white-color);
+      font-size: 1.3rem;
+      width: 900px;
+      padding-left: 5rem;
+}
+.contained-button-cont{
+      padding: 3.5rem;
+      width: 60vw;
+      height: 20vh;
+      margin: 2rem;
+      border: 1px solid rgb(192, 192, 192);
+}
+.button{
+      padding: 0.6rem;
+      margin: 1rem;
+      font-size: 1rem;
+      font-weight: 600;
+      box-shadow: 3px;
+      border-radius: 5px;      
+}
+.primary-button{
+      background-color: #9AD0EC;
+     color: #1572A1;
+}
+
+.secondary-button{
+      background-color: #E7FBBE;
+      color: #95CD41;
+}
+.danger-button{
+      background-color:#FFAEC0; 
+      color: rgb(194, 45, 45);
+}
+.success-button{
+      background-color:#96d88e; 
+      color: #1E6F5C;
+}
+.warning-button{
+      background-color:#FFDA77;
+      color: #FF7B54; 
+}
+.info-button{
+background-color: #96d88e;
+color: #24A19C;
+}
+.dark-button{
+      background-color: rgb(128, 134, 134); 
+}
+.link-button{
+background-color: #7868E6;
+color: #31326F;
+}
+.disable-button{
+    background-color: #C9CCD5;
+    color: #94928f;
+}
+
+.contained-btn-iframe{
+      margin-left: 2rem;
+      width: 1113px; 
+      height: 460px;
+        border:0;
+}
+
+/* Floating Button Code */
+
+.floating-btn-title{
+      margin: 2rem 0 0 4rem;
+      color: var(--primary-color);
+      font-size: 3rem;
+}
+.floating-button-cont{
+      margin: 2rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      max-width: 200px;
+     
+      padding: 10px 0;
+}
+.floating-btn{
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      font-size: 2rem;
+      box-shadow: 20px solid rgb(191, 141, 238);
+      border: 2px solid white;
+    }
+      
+.primary-button{
+      color:#EFEFEF;
+      background-color: #52734D;
+}
+.plus-button{
+      color:#EEEEEE;
+      background-color: #5800FF;
+} 
+
+.primary-button:hover{
+      color:#52734D;
+      background-color:#EFEFEF;;
+}
+.plus-button:hover{
+      color:#5800FF;
+      background-color:#EEEEEE;
+}
+.floating-btn-iframe{
+      margin-left: 2rem;
+      width: 1000px; 
+      height: 500px;
+        border:0;
+}
+
+/* Button with icon code */
+
+.icon-btn-title{
+      margin-left: 2rem;
+      color: var(--primary-color);
+      font-size: 3rem;
+      margin-top: -12rem;
+}
+
+.icon-button-cont{
+      padding: 3.5rem;
+      margin-top: -3rem;
+}
+.icon-btn{
+      margin: 1rem;
+      font-size: 1rem;
+      font-weight: 600;
+      box-shadow: 10px 10px 5px 0px rgba(12, 12, 12, 0.75);
+      border-radius: 5px; 
+}
+.fas {
+      margin-right: 0.8rem;
+}
+.cart-button{
+  background-color: #B6EB7A;
+  color: #17706E;
+  padding:0.7rem
+}
+.home-button{
+      padding:0.7rem
+}
+.icon-btn-iframe{
+      margin-left: 2rem;
+      width: 1000px; 
+      height: 500px;
+        border:0;
+}
