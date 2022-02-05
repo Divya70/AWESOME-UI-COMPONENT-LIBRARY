@@ -90,7 +90,7 @@
       align-items: center;
       background-color: var(--primary-color);
       border-radius: 50%;
-      border: 2px solid white;
+      border: 2px solid var(--white-color);
       font-weight: 600;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       color: var(--white-color);
