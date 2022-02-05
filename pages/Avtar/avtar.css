@@ -1,0 +1,124 @@
+
+/* Main Content For Avtar*/
+
+.main-content{
+      height: 100vh;
+    background-color: var(--black-color);
+      grid-area: main;
+      overflow-y:scroll;
+      }
+ /* Avtar with image code */
+.avtar-title{
+      margin: 2rem 0 0 5rem;
+      color: var(--primary-color);
+      font-size: 3rem;
+}
+.avtar-details{
+      padding: 10px;
+      color: var(--white-color);
+      font-size: 1.3rem;
+      width: 900px;
+      padding-left: 2rem;
+}
+.avtar-images-cont{
+      width: 70vw;
+      display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 2rem 0;
+    border: 2px solid var(--black-color);
+    align-items: baseline;
+    border-radius: 0.3rem;
+    border: 1px solid rgb(192, 192, 192);
+    margin-left: 4rem;
+      
+}
+.responsive-image{
+      margin-left: 1rem;
+}
+.avtar-img1 img{
+      height: 300px;
+      clip-path: circle();
+}
+.avtar-img2 img{
+      height: 150px;
+      clip-path: circle();
+}
+.avtar-img3 img{
+      height: 100px;
+      clip-path: circle();
+}
+.avtar-img4 img{
+      height: 78px;
+      clip-path: circle();
+}
+.image-avtar-iframe{
+      margin-left: 2rem;
+      width: 1113px; 
+      height: 460px;
+        border:0;
+}
+
+/* Text Avtar Code */
+
+.text-avtar-title{
+      margin: 2rem 0 0 5rem;
+      color: var(--primary-color);
+      font-size: 3rem;
+}
+.text-avtar-details{
+      padding: 10px;
+      color: var(--white-color);
+      font-size: 1.3rem;
+      width: 900px;
+      padding-left: 2rem;
+}
+.avtar-text-cont{
+      width: 70vw;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 2rem 3rem;
+    border: 2px solid var(--white-color);
+    border-radius: 0.3rem;
+}
+.text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--primary-color);
+      border-radius: 50%;
+      border: 2px solid white;
+      font-weight: 600;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: var(--white-color);
+}
+.avtar-text1{ 
+      width: 200px;
+      height: 200px;
+      font-size: 3rem; 
+}
+.avtar-text2{
+      width: 150px;
+      height: 150px;
+      font-size: 2.4rem;
+}
+.avtar-text3{
+      width: 100px;
+      height: 100px;
+      font-size: 2rem;
+}
+.avtar-text4{
+      width: 70px;
+      height: 70px;
+      font-size: 1rem;
+}
+
+.text-avtar-iframe{
+      margin-left: 2rem;
+      width: 1113px; 
+      height: 460px;
+        border:0;
+}
