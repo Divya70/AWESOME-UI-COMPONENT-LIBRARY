@@ -1,19 +1,19 @@
-
 /* Main Content */
 
-.main-content{
+.main-content {
       height: 100vh;
-    background-color: var(--black-color);
+      background-color: var(--black-color);
       grid-area: main;
-      overflow-y:scroll;
-      }
+      overflow-y: scroll;
+}
 
-.responsive-image-title{
+.responsive-image-title {
       margin: 2rem 0 0 5rem;
       color: var(--primary-color);
       font-size: 3rem;
 }
-.responsive-image-details{
+
+.responsive-image-details {
       padding: 10px;
       color: var(--white-color);
       font-size: 1.3rem;
@@ -21,29 +21,32 @@
 }
 
 /* Responsive image code */
-.responsive-img-div{
+.responsive-img-div {
       width: 100%;
       height: 100%;
 }
-.responsive-image img{
-      width: 15rem; 
+
+.responsive-image img {
+      width: 15rem;
       height: 15rem;
       margin: 4rem;
 }
-.img-iframe{
-      width: 1000px; 
-    height: 460px;
-    border:0; 
-    
+
+.img-iframe {
+      width: 1000px;
+      height: 460px;
+      border: 0;
+
 }
-.rounded-img-div{
+
+.rounded-img-div {
       width: 100%;
       height: 100%;
 }
-.rounded-image img{
-      width: 15rem; 
+
+.rounded-image img {
+      width: 15rem;
       height: 15rem;
       margin: 4rem;
       border-radius: 50%;
 }
-
