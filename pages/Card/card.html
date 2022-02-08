@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://kit.fontawesome.com/b20cfefdfb.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="components.css">
+      <link rel="stylesheet" href="/pages/Card/card.css">
+      <link rel="stylesheet" href="/pages/documentation.css">
+      <title>Card Components</title>
+</head>
+
+<body>
+      <div class="container">
+            <div class="navigation">
+                  <div class="cl-name">
+                        <span class="logo-name">AWESOME UI</span>
+                        <span class="sub-title-name">Let's Build Together</span>
+                  </div>
+                  <div class="nav-home">
+                        <ul class="nav-home-page">
+                              <li><a href="/index.html" class="home">Home</a></li>
+                              <li><a href="/docs.html" class="home">Documentation</a></li>
+                        </ul>
+                  </div>
+            </div>
+            <aside class="sidebar">
+
+                  <h3 class="get-started">Getting Started</h3>
+                  <div class="sidebar-components">
+                        <ul class="bullet-none list-none">
+                              <li>
+                                    <a href="/docs.html">Installation</a>
+                              </li>
+                              <li>
+                                    <a href="/pages/Alert/alert.html">Alert</a>
+                              </li>
+                              <li>
+                                    <a href="/pages/Badge/badge.html">Badge</a>
+                              </li>
+                              <li>
+                                    <a href="/pages/Button/button.html">Button</a>
+                              </li>
+                              <li>
+                                    <a href="/pages/Avtar/avtar.html">Avtar</a>
+                              </li>
+                              <li>
+                                    <a href="/pages/Image/image.html">Image</a>
+                              </li>
+                              <li>
+                                    <a href="/pages/Form/form.html">Form</a>
+                              </li>
+                              <li>
+                                    <a href="/pages/Navigation/navigation.html">Navigation</a>
+                              </li>
+                              <li>
+                                    <a href="/pages/Lists/lists.html">Lists</a>
+                              </li>
+                              <li>
+                                    <a href="/pages/Card/card.html">Card</a>
+                              </li>
+                              <li>
+                                    <a href="/pages/Model/model.html">Model</a>
+                              </li>
+                              <li>
+                                    <a href="/pages/Rating/rating.html">Rating</a>
+                              </li>
+                              <li>
+                                    <a href="/pages/Slider/slider.html">Slider</a>
+                              </li>
+                              <li>
+                                    <a href="/pages/Typography/typography.html">Typography</a>
+                              </li>
+                              <li>
+                                    <a href="/pages/Toast/toast.html">Toast</a>
+                              </li>
+                        </ul>
+                  </div>
+
+            </aside>
+
+            <div class="main-content">
+                  <h1 class="component-heading">Cards</h1>
+                  <p class="component-description">A card is container for a few short, related pieces of information
+                  </p>
+                  <!-- Card with wishlist icon -->
+                  <div class="card-container" id="overlay-cont">
+                        <div class="card-image" id="image-overlay-cont">
+                              <img src="/images/card1.jpg" />
+                              <div class="card-title" id="heading-overlay">Bata</div>
+                              <div class="card-des des" id="des-overlay">Women Platform Heels</div>
+                              <div class="wishlist item-wishlist"><i class="fas fa-heart dismiss"></i></div>
+                        </div>
+                        <div class="card-badge badge">NEW</div>
+                        <div class="card-price-cont">
+                              <div class="price">Rs.2999</div>
+                              <div class="price-discount">Rs.5999</div>
+                              <div class="price-OFF">50% OFF</div>
+                        </div>
+                        <div class="size">Size XS, M, L, XL, XXL</div>
+                        <div class="few-left">Only Few Left!</div>
+                        <div class="icon-button-cont">
+                              <button class="icon-btn cart-button"><i class="fas fa-shopping-cart"></i>ADD TO
+                                    CART</button>
+                        </div>
+                  </div>
+                  <!-- Card With Badge -->
+                  <!-- Dismiss card started -->
+                  <div class="card-container">
+                        <div class="card-image">
+                              <img src="/images/card1.jpg" />
+                              <div class="wishlist item-wishlist"><i class="fas fa-times dismiss"></i></div>
+                        </div>
+
+                        <div class="card-title">Bata</div>
+                        <div class="card-des">Women Platform Heels</div>
+                        <div class="card-price-cont">
+                              <div class="price">Rs.2999</div>
+                              <div class="price-discount">Rs.5999</div>
+                              <div class="price-OFF">50% OFF</div>
+                        </div>
+                        <div class="size">Size XS, M, L, XL, XXL</div>
+                        <div class="few-left">Only Few Left!</div>
+                  </div>
+                  <div class="card-container">
+                        <div class="card-image">
+                              <img src="/images/card1.jpg" />
+                              <div class="card-title">Bata</div>
+                              <div class="card-des">Women Platform Heels</div>
+                              <div class="wishlist item-wishlist"><i class="fas fa-times dismiss"></i></div>
+                        </div>
+                        <div class="card-badge badge" id="trending-badge">TRENDING</div>
+                        <div class="card-price-cont">
+                              <div class="price">Rs.2999</div>
+                              <div class="price-discount">Rs.5999</div>
+                              <div class="price-OFF">50% OFF</div>
+                        </div>
+                        <div class="size">Size XS, M, L, XL, XXL</div>
+                        <div class="few-left">Only Few Left!</div>
+                  </div>
+                  <!-- Horizontal card -->
+                  <div class="card-horizontal-container">
+                        <div class="card-horizontal-image">
+                              <img src="/images/card1.jpg" />
+                              <div class="wishlist item-wishlist"><i class="fas fa-times dismiss"></i></div>
+                        </div>
+                        <div class="card-horizontal-title">Bata</div>
+                        <div class="card-horizontal-des">Women Platform Heels</div>
+                        <div class="card-price-cont">
+                              <div class="price">Rs.2999</div>
+                              <div class="price-discount">Rs.5999</div>
+                              <div class="price-OFF">50% OFF</div>
+                        </div>
+                        <div class="size">Size XS, M, L, XL, XXL</div>
+                        <div class="few-left">Only Few Left!</div>
+                  </div>
+                  <!-- Text Only Card -->
+                  <div class="text-card-container">
+                        <h1 class="text-card-heading">Spiderman</h1>
+                        <p class="text-card-des">What is the power of Spider-Man?
+                              Spider-Man's Powers and Abilities: Superhuman strength, agility, endurance, ability to
+                              stick to and climb walls and other surfaces, uses self-designed web-shooters allowing him
+                              to fire and swing from sticky webs, special "Spider-Sense" warns of incoming danger,
+                              genius intellect specializing in chemistry and invention.</p>
+                  </div>
+                  <iframe class="iframe"
+                        src="https://carbon.now.sh/embed?bg=rgba%2863%2C60%2C59%2C1%29&t=panda-syntax&wt=none&l=htmlmixed&width=1279.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=57px&ln=false&fl=1&fm=MonoLisa&fs=13.5px&lh=123%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Card%2520with%2520wishlist%2520icon%2520--%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container%2522%2520id%253D%2522overlay-cont%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%2520id%253D%2522image-overlay-cont%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252Fcard1.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%2520id%253D%2522heading-overlay%2522%253EBata%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-des%2520des%2522%2520id%253D%2522des-overlay%2522%253EWomen%2520Platform%2520Heels%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522wishlist%2520item-wishlist%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2520dismiss%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2520badge%2522%253ENEW%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price-cont%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price%2522%253ERs.2999%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-discount%2522%253ERs.5999%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-OFF%2522%253E50%2525%2520OFF%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522size%2522%253ESize%2520XS%252C%2520M%252C%2520L%252C%2520XL%252C%2520XXL%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522few-left%2522%253EOnly%2520Few%2520Left%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-button-cont%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2520cart-button%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253EADD%2520TO%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520CART%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                  <iframe class="iframe"
+                        src="https://carbon.now.sh/embed?bg=rgba%2863%2C60%2C59%2C1%29&t=panda-syntax&wt=none&l=htmlmixed&width=1092.75&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=57px&ln=false&fl=1&fm=MonoLisa&fs=13.5px&lh=123%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Dismiss%2520card%2520started%2520--%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252Fcard1.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522wishlist%2520item-wishlist%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2520dismiss%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253EBata%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-des%2522%253EWomen%2520Platform%2520Heels%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price-cont%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price%2522%253ERs.2999%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-discount%2522%253ERs.5999%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-OFF%2522%253E50%2525%2520OFF%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522size%2522%253ESize%2520XS%252C%2520M%252C%2520L%252C%2520XL%252C%2520XXL%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522few-left%2522%253EOnly%2520Few%2520Left%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                  <iframe class="iframe"
+                        src="https://carbon.now.sh/embed?bg=rgba%2863%2C60%2C59%2C1%29&t=panda-syntax&wt=none&l=htmlmixed&width=1092.75&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=57px&ln=false&fl=1&fm=MonoLisa&fs=13.5px&lh=123%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252Fcard1.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253EBata%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-des%2522%253EWomen%2520Platform%2520Heels%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522wishlist%2520item-wishlist%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2520dismiss%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2520badge%2522%2520id%253D%2522trending-badge%2522%253ETRENDING%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price-cont%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price%2522%253ERs.2999%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-discount%2522%253ERs.5999%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-OFF%2522%253E50%2525%2520OFF%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522size%2522%253ESize%2520XS%252C%2520M%252C%2520L%252C%2520XL%252C%2520XXL%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522few-left%2522%253EOnly%2520Few%2520Left%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                  <iframe class="iframe"
+                        src="https://carbon.now.sh/embed?bg=rgba%2863%2C60%2C59%2C1%29&t=panda-syntax&wt=none&l=htmlmixed&width=1092.75&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=57px&ln=false&fl=1&fm=MonoLisa&fs=13.5px&lh=123%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Horizontal%2520card%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252Fcard1.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522wishlist%2520item-wishlist%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2520dismiss%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal-title%2522%253EBata%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal-des%2522%253EWomen%2520Platform%2520Heels%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price-cont%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price%2522%253ERs.2999%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-discount%2522%253ERs.5999%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-OFF%2522%253E50%2525%2520OFF%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522size%2522%253ESize%2520XS%252C%2520M%252C%2520L%252C%2520XL%252C%2520XXL%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522few-left%2522%253EOnly%2520Few%2520Left%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                  <iframe class="iframe"
+                        src="https://carbon.now.sh/embed?bg=rgba%2863%2C60%2C59%2C1%29&t=panda-syntax&wt=none&l=htmlmixed&width=1092.75&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=57px&ln=false&fl=1&fm=MonoLisa&fs=13.5px&lh=123%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Text%2520Only%2520Card%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522text-card-heading%2522%253ESpiderman%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-card-des%2522%253EWhat%2520is%2520the%2520power%2520of%2520Spider-Man%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Spider-Man%27s%2520Powers%2520and%2520Abilities%253A%2520Superhuman%2520strength%252C%2520agility%252C%2520endurance%252C%2520ability%2520to%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520stick%2520to%2520and%2520climb%2520walls%2520and%2520other%2520surfaces%252C%2520uses%2520self-designed%2520web-shooters%2520allowing%2520him%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520to%2520fire%2520and%2520swing%2520from%2520sticky%2520webs%252C%2520special%2520%2522Spider-Sense%2522%2520warns%2520of%2520incoming%2520danger%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520genius%2520intellect%2520specializing%2520in%2520chemistry%2520and%2520invention.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+            </div>
+
+            <!--Footer Started-->
+            <footer class="footer">
+                  <div class="footer-header">Made with <span style="color: red;">❤</span> by Divya Namdev</div>
+                  <ul class="social-link list-non-bullet">
+                        <li class="list-item-inline">
+                              <a class="link" href="https://github.com/Divya70">github</a>
+                        </li>
+                        <li class="list-item-inline">
+                              <a class="link" href="https://www.linkedin.com/in/divya-namdev-115a1619a">Linkedin</a>
+                        </li>
+                        <li class="list-item-inline">
+                              <a class="link" href="https://twitter.com/DivyaSi32558841?s=08">twitter</a>
+                        </li>
+                  </ul>
+            </footer>
+      </div>
+</body>
+
+</html>
