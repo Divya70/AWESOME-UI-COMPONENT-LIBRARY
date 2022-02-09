@@ -1,0 +1,39 @@
+/* Slider Code */
+.rating-container input {
+      display: none;
+}
+
+.rating-container label {
+      display: inline-block;
+      width: 1rem;
+      position: relative;
+      cursor: pointer;
+      color: rgb(255, 123, 0);
+      margin-left: 2rem;
+      padding: 0.5rem;
+}
+
+.rating-container label:before {
+      content: "\2605";
+      position: absolute;
+      font-size: 3rem;
+      display: inline-block;
+}
+
+.rating-container label:after {
+      content: "\2605";
+      position: absolute;
+      font-size: 3rem;
+      display: inline-block;
+}
+
+.rating-container label:hover {
+      color: orange;
+}
+
+.iframe {
+      width: 1000px;
+      height: 300px;
+      border: 0;
+      margin: 5rem;
+}
