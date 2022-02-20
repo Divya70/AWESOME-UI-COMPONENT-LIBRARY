@@ -229,7 +229,7 @@
       margin-left: 0.8rem;
 }
 
-.cart-button {
+.add-to-cart-cont .cart-button {
       width: 10.4rem;
       padding: 0.4rem;
       box-shadow: -1px 4px 19px -4px var(--box-shadow-black-color);
