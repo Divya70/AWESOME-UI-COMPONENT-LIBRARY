@@ -1,41 +1,18 @@
-/* Main Content */
-
-/* .main-content {
-      background-color: var(--black-color);
-      grid-area: main;
-      overflow-y: scroll;
-} */
-
-.input-title {
-      margin: 2rem 0 0 5rem;
-      color: var(--primary-color);
-      font-size: 3rem;
-}
-
-.input-details {
-      padding: 10px;
-      color: var(--white-color);
-      font-size: 1.3rem;
-      margin-left: 3rem;
-}
-
-/*inputs code */
-
 .input-container {
       width: 80%;
-      height: 50%;
-      border: 1px solid rgb(192, 192, 192);
+      height: 15rem;
+      border: 1px solid var(--container-border);
       margin-left: 3rem;
 }
 
 .input-div {
       display: flex;
       flex-direction: column;
-      margin: 2rem;
+      margin: 1rem;
       width: 40rem;
 }
 
-.text {
+.input-text {
       padding: 0.5rem;
 }
 
@@ -49,12 +26,12 @@
 }
 
 #password {
-      border: 2px solid red;
+      border: 2px solid var(--black-color);
       border-radius: 0.4rem;
 }
 
 #pass {
-      color: red;
+      color: var(--black-color);
       padding: 0.5rem;
       font-size: 1.3rem;
 
@@ -62,35 +39,21 @@
 
 .error-message {
       margin-left: 2rem;
-      color: red;
-}
-
-.input-iframe {
-      width: 1000px;
-      height: 500px;
-      border: 0;
-      margin-top: 2rem;
+      color: var(--red-color);
 }
 
 /* radio button code */
 
-.button-cont {
+.radio-button-cont {
       width: 60%;
       height: 15%;
       margin-left: 3rem;
-      border: 1px solid rgb(192, 192, 192);
+      border: 1px solid var(--container-border);
       display: flex;
 }
 
-.btn {
+.radio-btn {
       padding: 2rem;
       font-size: 1rem;
-      color: white;
-}
-
-.chekckbox-iframe {
-      width: 850px;
-      height: 500px;
-      border: 0;
-      margin: 2rem;
+      color: var(--primary-color);
 }
