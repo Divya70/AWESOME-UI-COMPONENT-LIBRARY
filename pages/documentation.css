@@ -92,6 +92,10 @@
     --new-badge-bg: #ff3f6ccc;
     --new-badge-color: #fff;
 
+    /* Rating Color */
+    --rating-color: #ff7b00;
+    --rating-hover-color: #ffa500;
+
 }
 
 ::-webkit-scrollbar {
@@ -187,8 +191,6 @@
     text-decoration: none;
     list-style: none;
     color: var(--primary-color);
-
-
 }
 
 .sidebar li {
