@@ -76,7 +76,21 @@
     --cart-icon-button-bg: #B6EB7A;
     --cart-icon-button-color: #17706E;
 
+    /* Navbar color */
+    --navbar-bg-color: #F5F5F5;
+    --navbar-color: #03045E;
+    --searchbar-color: #e0e0e0;
+    --badge-color: #ff0000;
 
+    /* Button Colors */
+    --cart-button-bg: #03045E;
+    --discount: #555555;
+    --text-overlay-bg: #0000004d;
+
+    /* badge color */
+    --card-details-bg: #E7E7DE;
+    --new-badge-bg: #ff3f6ccc;
+    --new-badge-color: #fff;
 
 }
 
@@ -153,14 +167,6 @@
     width: 100%;
     background-color: var(--secondary-color);
     border: 2px solid var(--secondary-color);
-}
-
-.sidebar-title {
-    margin-top: 7rem;
-    color: var(--black-color);
-}
-
-aside {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -169,6 +175,12 @@ aside {
     list-style: none;
     color: var(--primary-color);
     font-size: 1.5rem;
+    overflow-y: scroll;
+}
+
+.sidebar-title {
+    margin-top: 7rem;
+    color: var(--black-color);
 }
 
 .bullet-none {
@@ -179,26 +191,22 @@ aside {
 
 }
 
-aside li {
+.sidebar li {
     padding: 0.6rem;
     font-size: 1.2rem;
 
 }
 
-aside li a {
+.sidebar li a {
     text-decoration: none;
     color: var(--primary-color);
     cursor: pointer;
 
 }
 
-aside li a:hover {
+.sidebar li a:hover {
     color: var(--sidebar-hover);
     cursor: pointer;
-}
-
-.sidebar {
-    overflow-y: scroll;
 }
 
 /* Main Content Code*/
