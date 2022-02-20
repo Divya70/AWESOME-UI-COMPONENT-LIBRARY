@@ -12,7 +12,7 @@ To introduce Awesome UI to your project, copy the link given below and paste it 
  ## Live Link :
  https://awesome-ui-component-library.netlify.app/
  
- ## Deno
+ ## Demo
 ![](/images/cl-preview.gif)
  
  ### Components in Awesome UI
