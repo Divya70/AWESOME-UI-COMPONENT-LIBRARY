@@ -24,7 +24,7 @@ To introduce Awesome UI to your project, copy the link given below and paste it 
  * Image - [Link](https://awesome-ui-component-library.netlify.app/pages/image/image)
  * Input - [Link](https://awesome-ui-component-library.netlify.app/pages/input/input)
  * Navigation - [Link](https://awesome-ui-component-library.netlify.app/pages/navigation/navigation)
- * List - [Link](https://awesome-ui-component-library.netlify.app/pages/list/list)
+ * List - [Link](https://awesome-ui-component-library.netlify.app/pages/lists/lists)
  * Card - [Link](https://awesome-ui-component-library.netlify.app/pages/card/card)
  * Modal - [Link](https://awesome-ui-component-library.netlify.app/pages/modal/modal)
  * Rating - [Link](https://awesome-ui-component-library.netlify.app/pages/rating/rating)
