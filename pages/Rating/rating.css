@@ -1,4 +1,8 @@
 /* Slider Code */
+.rating-container {
+      margin-left: 10rem;
+}
+
 .rating-container input {
       display: none;
 }
@@ -9,7 +13,7 @@
       position: relative;
       cursor: pointer;
       color: var(--rating-color);
-      margin-left: 2rem;
+      margin-left: 1rem;
       padding: 0.5rem;
 }
 

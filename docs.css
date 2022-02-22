@@ -139,7 +139,7 @@
 .installation-title {
       text-align: center;
       margin-top: 2rem;
-      color: var(--black-color);
+      color: var(--primary-color);
       font-size: 2rem;
       padding: 10px;
 
@@ -154,7 +154,8 @@
 
 .span {
       color: var(--red-color);
-      margin: 2rem;
+      margin: 3rem;
+      font-size: 1.2rem;
 }
 
 /* Footer Code */
