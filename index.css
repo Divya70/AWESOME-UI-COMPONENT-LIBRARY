@@ -3,6 +3,12 @@
       padding: 0px;
 }
 
+body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+}
+
 :root {
       --primary-color: #3B82F6;
       --secondary-color: #FFFFFF;
@@ -20,12 +26,10 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      height: 5rem;
+      height: 10%;
       width: 100%;
       background-color: var(-secondary-color);
       box-shadow: -1px 4px 19px -4px var(--box-shadow-black-color);
-      -webkit-box-shadow: -1px 4px 19px -4px var(--box-shadow-black-color);
-      -moz-box-shadow: -1px 4px 19px -4px var(--box-shadow-black-color);
 }
 
 .title-div {
@@ -53,7 +57,7 @@
       margin-top: 3rem;
       display: flex;
       background-color: var(--secondary-color);
-      height: 25rem;
+      height: 80%;
       width: 100%;
       color: var(--black-color);
 }
@@ -74,11 +78,11 @@
 
 .docs-button {
       padding: 0.8rem;
-      margin-top: 20px;
+      margin: 20px;
       background-color: var(--primary-color);
       margin-left: 6rem;
       border-radius: 5px;
-      border: 2px solid white;
+      border: 2px solid var(--secondary-color);
       font-size: 1.1rem;
       border-radius: 2.5rem;
 
@@ -95,7 +99,7 @@
 }
 
 .home-image {
-      height: 100%;
+      height: 20rem;
       width: 50%;
 }
 
@@ -110,6 +114,7 @@
       text-align: center;
       color: var(--secondary-color);
       height: 10%;
+      margin-top: auto;
 }
 
 .link {

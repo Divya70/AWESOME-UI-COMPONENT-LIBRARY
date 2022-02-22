@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 :root {
     --primary-color: #3B82F6;
     --secondary-color: #FFFFFF;
@@ -223,7 +224,7 @@
 }
 
 .component-heading {
-    margin: 2rem 0 0 2rem;
+    margin: 2rem 0 0 5rem;
     color: var(--primary-color);
     font-size: 2.5rem;
 }
