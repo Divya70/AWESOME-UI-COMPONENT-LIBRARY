@@ -1,178 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b20cfefdfb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="/images/favicon-icon.png" />
+    <link rel="stylesheet" href="/pages/Badge/badge.css" />
+    <link rel="stylesheet" href="/pages/documentation.css" />
+    <title>Badge components</title>
+  </head>
 
-<head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <script src="https://kit.fontawesome.com/b20cfefdfb.js" crossorigin="anonymous"></script>
-      <link rel="icon" href="/images/favicon-icon.png">
-      <link rel="stylesheet" href="/pages/Badge/badge.css">
-      <link rel="stylesheet" href="/pages/documentation.css">
-      <title>Badge components</title>
-</head>
-
-<body>
-      <div class="container">
-            <div class="navigation">
-                  <div class="cl-name">
-                        <span class="logo-name">AWESOME UI</span>
-                        <span class="sub-title-name">Let's Build Together</span>
-                  </div>
-                  <div class="nav-home">
-                        <ul class="nav-home-page">
-                              <li><a href="/index.html" class="home">Home</a></li>
-                              <li><a href="/docs.html" class="home">Docs</a></li>
-                        </ul>
-                  </div>
-            </div>
-            <aside class="sidebar">
-
-                  <h3 class="sidebar-title">Getting Started</h3>
-                  <div class="sidebar-components">
-                        <ul class="bullet-none list-none">
-                              <li>
-                                    <a href="/docs.html">Installation</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Alert/alert.html">Alert</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Badge/badge.html">Badge</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Button/button.html">Button</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Avatar/avatar.html">Avatar</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Image/image.html">Image</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Input/input.html">Input</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Navigation/navigation.html">Navigation</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Lists/lists.html">Lists</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Card/card.html">Card</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Modal/modal.html">Modal</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Rating/rating.html">Rating</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Slider/slider.html">Slider</a>
-                              </li>
-                        </ul>
-                  </div>
-
-            </aside>
-
-            <div class="main-content">
-                  <h1 class="component-heading">Badges</h1>
-                  <p class="component-description">Badge are used as a notification. Here we have three types of badge .
-                  </p>
-                  <div class="badge-point">1. Badge on icons</div>
-                  <div class="text-point">2. Badge on text</div>
-                  <div class="avtar-point">3. Badge on Avtar</div>
-                  <h1 class="component-heading">Badge on icons</h1>
-                  <div class="badge-on-icons-cont">
-                        <div class="discord-icon badge"><i class="fab fa-discord"></i>
-                              <span class="icon-badge">4</span>
-                        </div>
-                        <div class="whatsapp-icon badge"><i class="fab fa-whatsapp"></i>
-                              <span class="icon-badge">1</span>
-                        </div>
-                        <div class="email-icon badge"><i class="fas fa-envelope"></i>
-                              <span class="icon-badge">8</span>
-                        </div>
-                        <div class="facebook-icon badge"><i class="fab fa-facebook"></i>
-                              <span class="icon-badge">3</span>
-                        </div>
-                        <div class="wishlist-icon badge"><i class="fas fa-heart nav-icon"></i>
-                              <span class="icon-badge">1</span></div>
-                        <div class="mycart-icon badge"><i class="fas fa-shopping-cart nav-icon"></i>
-                              <span class="icon-badge">2</span></div>
-                  </div>
-                  <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=59px&ph=72px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-on-icons-cont%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522discord-icon%2520badge%2522%253E%253Ci%2520class%253D%2522fab%2520fa-discord%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2522%253E4%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522whatsapp-icon%2520badge%2522%253E%253Ci%2520class%253D%2522fab%2520fa-whatsapp%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2522%253E1%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522email-icon%2520badge%2522%253E%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2522%253E8%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522facebook-icon%2520badge%2522%253E%253Ci%2520class%253D%2522fab%2520fa-facebook%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2522%253E3%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522wishlist-icon%2520badge%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2520nav-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2522%253E1%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mycart-icon%2520badge%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520nav-icon%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2522%253E2%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        style="width: 100%;
-                              height:600px; 
-                              border:0; 
-                              transform: scale(1);
-                              margin: 2rem 2rem 0 2rem;
-                               overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-                  </iframe>
-                  <h2 class="component-heading">Badge on Text</h2>
-                  <div class="text-container">
-                        <span class="small-text">This is small text</span>
-                        <span class="small-badge">5</span>
-                        <span class="medium-text">This is medium text</span>
-                        <span class="medium-badge">5</span>
-                        <span class="medium-text">Button with a badge on the left<button class="action-button">
-                                    Action
-                              </button></span>
-                        <span class="action-badge">8</span>
-                  </div>
-                  <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=59px&ph=72px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text%2522%253EThis%2520is%2520small%2520text%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522small-badge%2522%253E5%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522medium-text%2522%253EThis%2520is%2520medium%2520text%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522medium-badge%2522%253E5%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522medium-text%2522%253EButton%2520with%2520a%2520badge%2520on%2520the%2520left%253Cbutton%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522action-button%2522%253E%2520Action%253C%252Fbutton%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522action-badge%2522%253E8%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        style="width: 100%;
-                         height:400px;
-                          border:0;
-                          margin: 2rem 2rem 0 2rem;
-                           transform: scale(1);
-                            overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-                  </iframe>
-                  <h3 class="component-heading">Badge On Avtar</h3>
-                  <div class="badge-on-avtar">
-                        <div class="badge-image1 badge-img">
-                              <img class="avtar-image1" src="/images/badge1.jpg" alt="" />
-                              <span class="badge-count badge-img1"></span>
-                        </div>
-                        <div class="badge-image2 badge-img">
-                              <img class="avtar-image2" src="/images/badge1.jpg" alt="" />
-                              <span class="badge-count badge-img2"></span>
-                        </div>
-                        <div class="badge-image3 badge-img">
-                              <img class="avtar-image3" src="/images/badge1.jpg" alt="" />
-                              <span class="badge-count badge-img3"></span>
-                        </div>
-                  </div>
-
-                  <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=59px&ph=72px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-on-avtar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-image1%2520badge-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avtar-image1%2522%2520src%253D%2522%252Fimages%252Fbadge1.jpg%2522%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2520badge-img1%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-image2%2520badge-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avtar-image2%2522%2520src%253D%2522%252Fimages%252Fbadge1.jpg%2522%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2520badge-img2%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-image2%2520badge-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avtar-image3%2522%2520src%253D%2522%252Fimages%252Fbadge1.jpg%2522%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2520badge-img3%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        style="width:100%; 
-                        height: 600px; 
-                        border:0;
-                        margin: 2rem 2rem 0 2rem;
-                         transform: scale(1);
-                          overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-                  </iframe>
-            </div>
-
-            <footer class="footer">
-                  <div class="footer-header">Made with <span style="color: red;">❤</span> by Divya Namdev</div>
-                  <ul class="social-link list-non-bullet">
-                        <li class="list-item-inline">
-                              <a class="link" href="https://github.com/Divya70">github</a>
-                        </li>
-                        <li class="list-item-inline">
-                              <a class="link" href="https://www.linkedin.com/in/divya-namdev-115a1619a">Linkedin</a>
-                        </li>
-                        <li class="list-item-inline">
-                              <a class="link" href="https://twitter.com/DivyaSi32558841?s=08">twitter</a>
-                        </li>
-                  </ul>
-                  <div class="copyright">copyright ©2022 Awesome UI. All Right Reserved</div>
-            </footer>
+  <body>
+    <div class="container">
+      <div class="navigation">
+        <div class="cl-name">
+          <span class="logo-name">AWESOME UI</span>
+          <span class="sub-title-name">Let's Build Together</span>
+        </div>
+        <div class="nav-home">
+          <ul class="nav-home-page">
+            <li><a href="/index.html" class="home">Home</a></li>
+            <li><a href="/docs.html" class="home">Docs</a></li>
+          </ul>
+        </div>
       </div>
-</body>
+      <aside class="sidebar">
+        <h3 class="sidebar-title">Getting Started</h3>
+        <div class="sidebar-components">
+          <ul class="bullet-none list-none">
+            <li>
+              <a href="/docs.html">Installation</a>
+            </li>
+            <li>
+              <a href="/pages/Alert/alert.html">Alert</a>
+            </li>
+            <li>
+              <a href="/pages/Badge/badge.html">Badge</a>
+            </li>
+            <li>
+              <a href="/pages/Button/button.html">Button</a>
+            </li>
+            <li>
+              <a href="/pages/Avatar/avatar.html">Avatar</a>
+            </li>
+            <li>
+              <a href="/pages/Image/image.html">Image</a>
+            </li>
+            <li>
+              <a href="/pages/Input/input.html">Input</a>
+            </li>
+            <li>
+              <a href="/pages/Navigation/navigation.html">Navigation</a>
+            </li>
+            <li>
+              <a href="/pages/Lists/lists.html">Lists</a>
+            </li>
+            <li>
+              <a href="/pages/Card/card.html">Card</a>
+            </li>
+            <li>
+              <a href="/pages/Modal/modal.html">Modal</a>
+            </li>
+            <li>
+              <a href="/pages/Rating/rating.html">Rating</a>
+            </li>
+            <li>
+              <a href="/pages/Slider/slider.html">Slider</a>
+            </li>
+            <li>
+              <a href="/pages/Simplified-Grid/simplified-grid.html"
+                >Simplified Grid</a
+              >
+            </li>
+            <li>
+              <a href="/pages/Text-Utilities/text-utilities.html"
+                >Text Utilities</a
+              >
+            </li>
+            <li>
+              <a href="/pages/Toast/toast.html">Toast</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
 
+      <div class="main-content">
+        <h1 class="component-heading">Badges</h1>
+        <p class="component-description">
+          Badge are used as a notification. Here we have three types of badge .
+        </p>
+        <div class="badge-point">1. Badge on icons</div>
+        <div class="text-point">2. Badge on text</div>
+        <div class="avtar-point">3. Badge on Avtar</div>
+        <h1 class="component-heading">Badge on icons</h1>
+        <div class="badge-on-icons-cont">
+          <div class="discord-icon badge">
+            <i class="fab fa-discord"></i>
+            <span class="icon-badge">4</span>
+          </div>
+          <div class="whatsapp-icon badge">
+            <i class="fab fa-whatsapp"></i>
+            <span class="icon-badge">1</span>
+          </div>
+          <div class="email-icon badge">
+            <i class="fas fa-envelope"></i>
+            <span class="icon-badge">8</span>
+          </div>
+          <div class="facebook-icon badge">
+            <i class="fab fa-facebook"></i>
+            <span class="icon-badge">3</span>
+          </div>
+          <div class="wishlist-icon badge">
+            <i class="fas fa-heart nav-icon"></i>
+            <span class="icon-badge">1</span>
+          </div>
+          <div class="mycart-icon badge">
+            <i class="fas fa-shopping-cart nav-icon"></i>
+            <span class="icon-badge">2</span>
+          </div>
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=59px&ph=72px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-on-icons-cont%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522discord-icon%2520badge%2522%253E%253Ci%2520class%253D%2522fab%2520fa-discord%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2522%253E4%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522whatsapp-icon%2520badge%2522%253E%253Ci%2520class%253D%2522fab%2520fa-whatsapp%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2522%253E1%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522email-icon%2520badge%2522%253E%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2522%253E8%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522facebook-icon%2520badge%2522%253E%253Ci%2520class%253D%2522fab%2520fa-facebook%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2522%253E3%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522wishlist-icon%2520badge%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2520nav-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2522%253E1%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mycart-icon%2520badge%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520nav-icon%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge%2522%253E2%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+          style="
+            width: 100%;
+            height: 600px;
+            border: 0;
+            transform: scale(1);
+            margin: 2rem 2rem 0 2rem;
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+        <h2 class="component-heading">Badge on Text</h2>
+        <div class="text-container">
+          <span class="small-text">This is small text</span>
+          <span class="small-badge">5</span>
+          <span class="medium-text">This is medium text</span>
+          <span class="medium-badge">5</span>
+          <span class="medium-text"
+            >Button with a badge on the left<button class="action-button">
+              Action
+            </button></span
+          >
+          <span class="action-badge">8</span>
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=59px&ph=72px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text%2522%253EThis%2520is%2520small%2520text%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522small-badge%2522%253E5%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522medium-text%2522%253EThis%2520is%2520medium%2520text%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522medium-badge%2522%253E5%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522medium-text%2522%253EButton%2520with%2520a%2520badge%2520on%2520the%2520left%253Cbutton%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522action-button%2522%253E%2520Action%253C%252Fbutton%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522action-badge%2522%253E8%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+          style="
+            width: 100%;
+            height: 400px;
+            border: 0;
+            margin: 2rem 2rem 0 2rem;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+        <h3 class="component-heading">Badge On Avtar</h3>
+        <div class="badge-on-avtar">
+          <div class="badge-image1 badge-img">
+            <img class="avtar-image1" src="/images/badge1.jpg" alt="" />
+            <span class="badge-count badge-img1"></span>
+          </div>
+          <div class="badge-image2 badge-img">
+            <img class="avtar-image2" src="/images/badge1.jpg" alt="" />
+            <span class="badge-count badge-img2"></span>
+          </div>
+          <div class="badge-image3 badge-img">
+            <img class="avtar-image3" src="/images/badge1.jpg" alt="" />
+            <span class="badge-count badge-img3"></span>
+          </div>
+        </div>
+
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=59px&ph=72px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-on-avtar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-image1%2520badge-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avtar-image1%2522%2520src%253D%2522%252Fimages%252Fbadge1.jpg%2522%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2520badge-img1%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-image2%2520badge-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avtar-image2%2522%2520src%253D%2522%252Fimages%252Fbadge1.jpg%2522%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2520badge-img2%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-image2%2520badge-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avtar-image3%2522%2520src%253D%2522%252Fimages%252Fbadge1.jpg%2522%2520alt%253D%2522%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-count%2520badge-img3%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+          style="
+            width: 100%;
+            height: 600px;
+            border: 0;
+            margin: 2rem 2rem 0 2rem;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </div>
+
+      <footer class="footer">
+        <div class="footer-header">
+          Made with <span style="color: red">❤</span> by Divya Namdev
+        </div>
+        <ul class="social-link list-non-bullet">
+          <li class="list-item-inline">
+            <a class="link" href="https://github.com/Divya70">github</a>
+          </li>
+          <li class="list-item-inline">
+            <a
+              class="link"
+              href="https://www.linkedin.com/in/divya-namdev-115a1619a"
+              >Linkedin</a
+            >
+          </li>
+          <li class="list-item-inline">
+            <a class="link" href="https://twitter.com/DivyaSi32558841?s=08"
+              >twitter</a
+            >
+          </li>
+        </ul>
+        <div class="copyright">
+          copyright ©2022 Awesome UI. All Right Reserved
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
