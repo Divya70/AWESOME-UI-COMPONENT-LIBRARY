@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b20cfefdfb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="/images/favicon-icon.png" />
+    <link rel="stylesheet" href="/pages/Toast/toast.css" />
+    <link rel="stylesheet" href="/pages/documentation.css" />
+    <title>Toast</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navigation">
+        <div class="cl-name">
+          <span class="logo-name">AWESOME UI</span>
+          <span class="sub-title-name">Let's Build Together</span>
+        </div>
+        <div class="nav-home">
+          <ul class="nav-home-page">
+            <li><a href="/index.html" class="home">Home</a></li>
+            <li><a href="/docs.html" class="home">Docs</a></li>
+          </ul>
+        </div>
+      </div>
+      <aside class="sidebar">
+        <h3 class="sidebar-title">Getting Started</h3>
+        <div class="sidebar-components">
+          <ul class="bullet-none list-none">
+            <li>
+              <a href="/docs.html">Installation</a>
+            </li>
+            <li>
+              <a href="/pages/Alert/alert.html">Alert</a>
+            </li>
+            <li>
+              <a href="/pages/Badge/badge.html">Badge</a>
+            </li>
+            <li>
+              <a href="/pages/Button/button.html">Button</a>
+            </li>
+            <li>
+              <a href="/pages/Avatar/avatar.html">Avatar</a>
+            </li>
+            <li>
+              <a href="/pages/Image/image.html">Image</a>
+            </li>
+            <li>
+              <a href="/pages/Input/input.html">Input</a>
+            </li>
+            <li>
+              <a href="/pages/Navigation/navigation.html">Navigation</a>
+            </li>
+            <li>
+              <a href="/pages/Lists/lists.html">Lists</a>
+            </li>
+            <li>
+              <a href="/pages/Card/card.html">Card</a>
+            </li>
+            <li>
+              <a href="/pages/Modal/modal.html">Modal</a>
+            </li>
+            <li>
+              <a href="/pages/Rating/rating.html">Rating</a>
+            </li>
+            <li>
+              <a href="/pages/Slider/slider.html">Slider</a>
+            </li>
+            <li>
+              <a href="/pages/Simplified-Grid/simplified-grid.html"
+                >Simplified Grid</a
+              >
+            </li>
+            <li>
+              <a href="/pages/Text-Utilities/text-utilities.html"
+                >Text Utilities</a
+              >
+            </li>
+            <li>
+              <a href="/pages/Toast/toast.html">Toast</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <div class="main-content">
+        <h1 class="component-heading">Toast</h1>
+        <p class="component-description">
+          Toast are used in giving popup messages like error succes.
+        </p>
+        <h1 class="component-heading">Example of Toast</h1>
+        <p class="component-description">
+          Copy the html and js code of Toast and use in your project.
+        </p>
+        <div class="comp-display-container">
+          <div class="main-wrapper-comp">
+            <div class=" wrapper-comp">
+              <h3>Succes toast demo</h3>
+            </div>
+            <div class=" wrapper-comp">
+              <button class="primary-btn success-btn" onclick=showsuccesToast()>Succes</button>
+            </div>             
+            <div class=" wrapper-comp">
+              <h3>Error toast demo </h3>
+            </div>
+            <div class="wrapper-comp">
+              <button class="primary-btn error-btn" onclick=showerrorToast()>Error</button>
+            </div>  
+          </div>
+            <!----- main component code starts from here ----->
+            <div class="toast " id= "toast-success">
+              Order placed!
+              <button type="button" onclick=closesuccesToast() class="btn-close">X</button>
+            </div>
+            <div class="toast" id="toast-error">
+               Error Order not placed!
+               <button type="button" onclick=closeerrorToast() class="btn-close">X</button>
+            </div>
+
+            <!----- main component code ends here ----->       
+
+        </div>
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=634.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520%2522%2520id%253D%2520%2522toast-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Order%2520placed%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520onclick%253DclosesuccesToast%28%29%2520class%253D%2522btn-close%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2522%2520id%253D%2522toast-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Error%2520Order%2520not%2520placed%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520onclick%253DcloseerrorToast%28%29%2520class%253D%2522btn-close%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 60%; height: 388px; border:0; transform: scale(1);margin: 2rem; overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=634.25&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=function%2520showsuccesToast%28%29%2520%257B%250A%2520%2520document.getElementById%28%2522toast-success%2522%29.style.display%2520%253D%2520%2522flex%2522%253B%250A%257D%250A%250Afunction%2520showerrorToast%28%29%2520%257B%250A%2520%2520document.getElementById%28%2522toast-error%2522%29.style.display%2520%253D%2520%2522flex%2522%253B%250A%257D%250Afunction%2520closesuccesToast%28%29%2520%257B%250A%2520%2520document.getElementById%28%2522toast-success%2522%29.style.display%2520%253D%2520%2522none%2522%253B%250A%257D%250Afunction%2520closeerrorToast%28%29%2520%257B%250A%2520%2520document.getElementById%28%2522toast-error%2522%29.style.display%2520%253D%2520%2522none%2522%253B%250A%257D"
+  style="width: 60%; height: 537px; border:0; transform: scale(1); margin:2rem; margin-bottom:4rem; overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+</div>
+        <!--Footer Started-->
+        <footer class="footer">
+          <div class="footer-header">
+            Made with <span style="color: red">❤</span> by Divya Namdev
+          </div>
+          <ul class="social-link list-non-bullet">
+            <li class="list-item-inline">
+              <a class="link" href="https://github.com/Divya70">github</a>
+            </li>
+            <li class="list-item-inline">
+              <a
+                class="link"
+                href="https://www.linkedin.com/in/divya-namdev-115a1619a"
+                >Linkedin</a
+              >
+            </li>
+            <li class="list-item-inline">
+              <a class="link" href="https://twitter.com/DivyaSi32558841?s=08"
+                >twitter</a
+              >
+            </li>
+          </ul>
+          <div class="copyright">
+            copyright ©2022 Awesome UI. All Right Reserved
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="toast.js"></script>
+  </body>
+</html>

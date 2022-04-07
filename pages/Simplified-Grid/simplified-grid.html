@@ -9,9 +9,9 @@
       crossorigin="anonymous"
     ></script>
     <link rel="icon" href="/images/favicon-icon.png" />
-    <link rel="stylesheet" href="/pages/Image/image.css" />
+    <link rel="stylesheet" href="/pages/Simplified-Grid/simplified-grid.css" />
     <link rel="stylesheet" href="/pages/documentation.css" />
-    <title>Image Components</title>
+    <title>Simplified Grid</title>
   </head>
 
   <body>
@@ -82,55 +82,69 @@
               >
             </li>
             <li>
-              <a href="/pages/Toast/toast.html">Toast</a>
+              <a href="/pages/Toast/toast.html"
+                >Toast</a
+              >
             </li>
           </ul>
         </div>
       </aside>
 
       <div class="main-content">
-        <h1 class="component-heading">Responsive Image</h1>
+        <h1 class="component-heading">Simplified Grid</h1>
         <p class="component-description">
-          This is a responsive image , i will change their size according to
-          screen size.
+          Grid are used in giving Grid to any product or feeback.
         </p>
-        <div class="responsive-image">
-          <img class="res-img" src="/images/avtar-img4.jpg" />
-          <img class="res-img" src="/images/responsive-img2.jpg" />
-        </div>
-        <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=967.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=59px&ph=72px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522responsive-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522res-img%2522%2520src%253D%2522%252Fimages%252Favtar-img4.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522res-img%2522%2520src%253D%2522%252Fimages%252Fresponsive-img2.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
-          style="
-            width: 100%;
-            height: 300px;
-            border: 0;
-            transform: scale(1);
-            overflow: hidden;
-          "
-          sandbox="allow-scripts allow-same-origin"
-        >
-        </iframe>
-        <h1 class="component-heading">Rounded Image</h1>
-        <p class="component-description">This is rounded image</p>
-        <div class="rounded-image">
-          <img class="res-img" src="/images/avtar-img4.jpg" />
-          <img class="res-img" src="/images/responsive-img2.jpg" />
-        </div>
-        <iframe
-          src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=967.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=59px&ph=72px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rounded-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522res-img%2522%2520src%253D%2522%252Fimages%252Favtar-img4.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522res-img%2522%2520src%253D%2522%252Fimages%252Fresponsive-img2.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
-          style="
-            width: 100%;
-            height: 300px;
-            border: 0;
-            margin: 2rem;
-            transform: scale(1);
-            overflow: hidden;
-          "
-          sandbox="allow-scripts allow-same-origin"
-        >
+        <h1 class="component-heading">Example of Grid</h1>
+        <p class="component-description">
+          Copy the html and js code of Grid and use in your project. 
+        </p>
+        <div class="comp-display-container">
+              
+          <!----- main component code starts from here ----->
+          <div class="main-2grid margin-1">
+            <div class="grid-child grid-1"></div>
+            <div class="grid-child grid-2"></div>
+          </div>
+          
+          <!----- main component code ends here ----->       
+          <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main-2grid%2520margin-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-child%2520grid-1%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-child%2520grid-2%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+          style="width: 60%; height: 260px; border:0; transform: scale(1);margin: 2rem; overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
         </iframe>
       </div>
+      
+      <!-------3 Grid --------->
+      <span class="component-heading">Example of Grid</span>
+      <p class="component-description">
+        Copy the html and js code of Grid and use in your project.
+      </p>
+      
+      <div class="comp-display-container">
+          
+          <!----- main component code starts from here ----->
+        
+          <div class="main-3grid">
+            <div class="grid-child grid-3"></div>
+            <div class="grid-child grid-4"></div>
+            <div class="grid-child grid-5"></div>
+          </div>
 
+          <!----- main component code ends here ----->       
+
+          <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=563.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522main-3grid%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-child%2520grid-3%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-child%2520grid-4%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-child%2520grid-5%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 60%; height: 282px; border:0; transform: scale(1);margin: 2rem;
+  margin-bottom: 4rem; overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+      </div>
+    </div>
+<!----------------Grid component ends here-------------------------------->  
+    
+
+      <!--Footer Started-->
       <footer class="footer">
         <div class="footer-header">
           Made with <span style="color: red">❤</span> by Divya Namdev
@@ -157,5 +171,6 @@
         </div>
       </footer>
     </div>
+  </div>
   </body>
 </html>

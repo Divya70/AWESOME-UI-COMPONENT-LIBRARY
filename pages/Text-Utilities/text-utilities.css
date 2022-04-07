@@ -1,0 +1,22 @@
+.comp-display-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      background-color: var(--white-color);
+      color: var(--black-color);
+      box-shadow: 0.1rem 0.1rem 0.3rem var(--secondary-color);
+    }
+    
+    .wrapper-comp {
+      margin-left: 3rem;
+    }
+    .small-text {
+      font-size: 0.6rem;
+    }
+    .gray-text {
+      color: gray;
+    }
+    .center-text {
+      justify-content: center;
+      align-items: center;
+    }

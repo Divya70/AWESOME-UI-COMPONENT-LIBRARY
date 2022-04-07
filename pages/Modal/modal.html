@@ -1,123 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b20cfefdfb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="/images/favicon-icon.png" />
+    <link rel="stylesheet" href="/pages/Modal/modal.css" />
+    <link rel="stylesheet" href="/pages/documentation.css" />
+    <title>Modal Components</title>
+  </head>
 
-<head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <script src="https://kit.fontawesome.com/b20cfefdfb.js" crossorigin="anonymous"></script>
-      <link rel="icon" href="/images/favicon-icon.png">
-      <link rel="stylesheet" href="/pages/Modal/modal.css">
-      <link rel="stylesheet" href="/pages/documentation.css">
-      <title>Modal Components</title>
-</head>
-
-<body>
-      <div class="container">
-            <div class="navigation">
-                  <div class="cl-name">
-                        <span class="logo-name">AWESOME UI</span>
-                        <span class="sub-title-name">Let's Build Together</span>
-                  </div>
-                  <div class="nav-home">
-                        <ul class="nav-home-page">
-                              <li><a href="/index.html" class="home">Home</a></li>
-                              <li><a href="/docs.html" class="home">Docs</a></li>
-                        </ul>
-                  </div>
-            </div>
-            <aside class="sidebar">
-
-                  <h3 class="sidebar-title">Getting Started</h3>
-                  <div class="sidebar-components">
-                        <ul class="bullet-none list-none">
-                              <li>
-                                    <a href="/docs.html">Installation</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Alert/alert.html">Alert</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Badge/badge.html">Badge</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Button/button.html">Button</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Avatar/avatar.html">Avatar</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Image/image.html">Image</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Input/input.html">Input</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Navigation/navigation.html">Navigation</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Lists/lists.html">Lists</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Card/card.html">Card</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Modal/modal.html">Modal</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Rating/rating.html">Rating</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Slider/slider.html">Slider</a>
-                              </li>
-                        </ul>
-                  </div>
-
-            </aside>
-
-            <div class="main-content">
-                  <h1 class="component-heading">Modal</h1>
-                  <p class="component-description">Modals are built with HTML, CSS. They’re positioned
-                        over everything else in the document.
-                  </p>
-                  <!-- Modal Code -->
-                  <div class="modal-container">
-                        <h1 class="modal-heading">Spiderman</h1>
-                        <p class="modal-des">What is the power of Spider-Man?
-                              Spider-Man's Powers and Abilities.</p>
-                        <div class="modal-buttons">
-                              <button class="cancel-button btn" type="button">Cancel</button>
-                              <button class="discard-button btn" type="button">Discard</button>
-                        </div>
-                  </div>
-                  <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=320&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=10px&ph=18px&ln=false&fl=1&fm=Fira+Code&fs=11.5px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522modal-heading%2522%253ESpiderman%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522modal-des%2522%253EWhat%2520is%2520the%2520power%2520of%2520Spider-Man%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Spider-Man%27s%2520Powers%2520and%2520Abilities.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cancel-button%2520btn%2522%2520type%253D%2522button%2522%253ECancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522discard-button%2520btn%2522%2520type%253D%2522button%2522%253EDiscard%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        style="width: 100%; 
-                        height: 300px;
-                         border:0; 
-                         margin: 2rem;
-                         transform: scale(1);
-                          overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-                  </iframe>
-            </div>
-
-            <!--Footer Started-->
-            <footer class="footer">
-                  <div class="footer-header">Made with <span style="color: red;">❤</span> by Divya Namdev</div>
-                  <ul class="social-link list-non-bullet">
-                        <li class="list-item-inline">
-                              <a class="link" href="https://github.com/Divya70">github</a>
-                        </li>
-                        <li class="list-item-inline">
-                              <a class="link" href="https://www.linkedin.com/in/divya-namdev-115a1619a">Linkedin</a>
-                        </li>
-                        <li class="list-item-inline">
-                              <a class="link" href="https://twitter.com/DivyaSi32558841?s=08">twitter</a>
-                        </li>
-                  </ul>
-                  <div class="copyright">copyright ©2022 Awesome UI. All Right Reserved</div>
-            </footer>
+  <body>
+    <div class="container">
+      <div class="navigation">
+        <div class="cl-name">
+          <span class="logo-name">AWESOME UI</span>
+          <span class="sub-title-name">Let's Build Together</span>
+        </div>
+        <div class="nav-home">
+          <ul class="nav-home-page">
+            <li><a href="/index.html" class="home">Home</a></li>
+            <li><a href="/docs.html" class="home">Docs</a></li>
+          </ul>
+        </div>
       </div>
-</body>
+      <aside class="sidebar">
+        <h3 class="sidebar-title">Getting Started</h3>
+        <div class="sidebar-components">
+          <ul class="bullet-none list-none">
+            <li>
+              <a href="/docs.html">Installation</a>
+            </li>
+            <li>
+              <a href="/pages/Alert/alert.html">Alert</a>
+            </li>
+            <li>
+              <a href="/pages/Badge/badge.html">Badge</a>
+            </li>
+            <li>
+              <a href="/pages/Button/button.html">Button</a>
+            </li>
+            <li>
+              <a href="/pages/Avatar/avatar.html">Avatar</a>
+            </li>
+            <li>
+              <a href="/pages/Image/image.html">Image</a>
+            </li>
+            <li>
+              <a href="/pages/Input/input.html">Input</a>
+            </li>
+            <li>
+              <a href="/pages/Navigation/navigation.html">Navigation</a>
+            </li>
+            <li>
+              <a href="/pages/Lists/lists.html">Lists</a>
+            </li>
+            <li>
+              <a href="/pages/Card/card.html">Card</a>
+            </li>
+            <li>
+              <a href="/pages/Modal/modal.html">Modal</a>
+            </li>
+            <li>
+              <a href="/pages/Rating/rating.html">Rating</a>
+            </li>
+            <li>
+              <a href="/pages/Slider/slider.html">Slider</a>
+            </li>
+            <li>
+              <a href="/pages/Simplified-Grid/simplified-grid.html"
+                >Simplified Grid</a
+              >
+            </li>
+            <li>
+              <a href="/pages/Text-Utilities/text-utilities.html"
+                >Text Utilities</a
+              >
+            </li>
+            <li>
+              <a href="/pages/Toast/toast.html">Toast</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
 
+      <div class="main-content">
+        <h1 class="component-heading">Modal</h1>
+        <p class="component-description">
+          Modals are built with HTML, CSS. They’re positioned over everything
+          else in the document.
+        </p>
+        <!-- Modal Code -->
+        <div class="modal-container">
+          <h1 class="modal-heading">Spiderman</h1>
+          <p class="modal-des">
+            What is the power of Spider-Man? Spider-Man's Powers and Abilities.
+          </p>
+          <div class="modal-buttons">
+            <button class="cancel-button btn" type="button">Cancel</button>
+            <button class="discard-button btn" type="button">Discard</button>
+          </div>
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=320&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=10px&ph=18px&ln=false&fl=1&fm=Fira+Code&fs=11.5px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522modal-heading%2522%253ESpiderman%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522modal-des%2522%253EWhat%2520is%2520the%2520power%2520of%2520Spider-Man%253F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Spider-Man%27s%2520Powers%2520and%2520Abilities.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cancel-button%2520btn%2522%2520type%253D%2522button%2522%253ECancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522discard-button%2520btn%2522%2520type%253D%2522button%2522%253EDiscard%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+          style="
+            width: 100%;
+            height: 300px;
+            border: 0;
+            margin: 2rem;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </div>
+
+      <!--Footer Started-->
+      <footer class="footer">
+        <div class="footer-header">
+          Made with <span style="color: red">❤</span> by Divya Namdev
+        </div>
+        <ul class="social-link list-non-bullet">
+          <li class="list-item-inline">
+            <a class="link" href="https://github.com/Divya70">github</a>
+          </li>
+          <li class="list-item-inline">
+            <a
+              class="link"
+              href="https://www.linkedin.com/in/divya-namdev-115a1619a"
+              >Linkedin</a
+            >
+          </li>
+          <li class="list-item-inline">
+            <a class="link" href="https://twitter.com/DivyaSi32558841?s=08"
+              >twitter</a
+            >
+          </li>
+        </ul>
+        <div class="copyright">
+          copyright ©2022 Awesome UI. All Right Reserved
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>

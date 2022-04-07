@@ -1,214 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b20cfefdfb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="/images/favicon-icon.png" />
+    <link rel="stylesheet" href="/pages/Lists/lists.css" />
+    <link rel="stylesheet" href="/pages/documentation.css" />
+    <title>Lists Components</title>
+  </head>
 
-<head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <script src="https://kit.fontawesome.com/b20cfefdfb.js" crossorigin="anonymous"></script>
-      <link rel="icon" href="/images/favicon-icon.png">
-      <link rel="stylesheet" href="/pages/Lists/lists.css">
-      <link rel="stylesheet" href="/pages/documentation.css">
-      <title>Lists Components</title>
-</head>
-
-<body>
-      <div class="container">
-            <div class="navigation">
-                  <div class="cl-name">
-                        <span class="logo-name">AWESOME UI</span>
-                        <span class="sub-title-name">Let's Build Together</span>
-                  </div>
-                  <div class="nav-home">
-                        <ul class="nav-home-page">
-                              <li><a href="/index.html" class="home">Home</a></li>
-                              <li><a href="/docs.html" class="home">Docs</a></li>
-                        </ul>
-                  </div>
-            </div>
-            <aside class="sidebar">
-
-                  <h3 class="sidebar-title">Getting Started</h3>
-                  <div class="sidebar-components">
-                        <ul class="bullet-none list-none">
-                              <li>
-                                    <a href="/docs.html">Installation</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Alert/alert.html">Alert</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Badge/badge.html">Badge</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Button/button.html">Button</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Avatar/avatar.html">Avatar</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Image/image.html">Image</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Input/input.html">Input</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Navigation/navigation.html">Navigation</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Lists/lists.html">Lists</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Card/card.html">Card</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Modal/modal.html">Modal</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Rating/rating.html">Rating</a>
-                              </li>
-                              <li>
-                                    <a href="/pages/Slider/slider.html">Slider</a>
-                              </li>
-                        </ul>
-                  </div>
-
-            </aside>
-
-            <div class="main-content">
-                  <h1 class="component-heading">Basic Lists</h1>
-                  <p class="component-description">Lists are a continuous group of text or images. They are composed of
-                        items containing primary and supplemental actions, which are represented by icons and text.</p>
-                  <!-- basic list start -->
-                  <div class="list-icon-container">
-                        <h3>Basic Lists</h3>
-                        <div class="user list"><i class="fas fa-user"></i>Profile</div>
-                        <div class="inbox list"><i class="fas fa-inbox"></i>Inbox</div>
-                        <div class="setting list"><i class="fas fa-cog"></i>Setting</div>
-                        <div class="stared list"><i class="fas fa-star"></i>Started</div>
-                        <div class="gmail list"><i class="fas fa-envelope"></i>Gmail</div>
-                        <div class="contacts list"><i class="fas fa-id-card-alt"></i>Contacts</div>
-                        <div class="password list"><i class="fas fa-unlock"></i>Password</div>
-                        <div class="sign-out list"><i class="fas fa-sign-out-alt"></i>Sign Out</div>
-                  </div>
-                  <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=817.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=11px&lh=145%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-icon-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EBasic%2520Lists%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522user%2520list%2522%253E%253Ci%2520class%253D%2522fas%2520fa-user%2522%253E%253C%252Fi%253EProfile%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522inbox%2520list%2522%253E%253Ci%2520class%253D%2522fas%2520fa-inbox%2522%253E%253C%252Fi%253EInbox%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522setting%2520list%2522%253E%253Ci%2520class%253D%2522fas%2520fa-cog%2522%253E%253C%252Fi%253ESetting%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stared%2520list%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253EStarted%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522gmail%2520list%2522%253E%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253EGmail%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522contacts%2520list%2522%253E%253Ci%2520class%253D%2522fas%2520fa-id-card-alt%2522%253E%253C%252Fi%253EContacts%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522password%2520list%2522%253E%253Ci%2520class%253D%2522fas%2520fa-unlock%2522%253E%253C%252Fi%253EPassword%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sign-out%2520list%2522%253E%253Ci%2520class%253D%2522fas%2520fa-sign-out-alt%2522%253E%253C%252Fi%253ESign%2520Out%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        style="width: 100%;
-                         height: 400px; 
-                         border:0; 
-                         margin: 2rem;
-                         transform: scale(1);
-                          overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-                  </iframe>
-                  <!----------- unordered List code---------->
-                  <h1 class="component-heading">Unordered List With Bullets</h1>
-                  <p class="component-description">An unordered list has no inherent order and the sequence of items
-                        isn't important. We may use this
-                        type of list, for example, to show the ingredients for a recipe.</p>
-                  <div class="unordered-list">
-                        <ul class="styled-list list-style-disc flex-items">
-                              <li>List Item1</li>
-                              <li>List Item2</li>
-                              <li>List Item3</li>
-                              <li>List Item4</li>
-                        </ul>
-                        <ul class="styled-list list-style-sqare flex-items">
-                              <li>List Item1</li>
-                              <li>List Item2</li>
-                              <li>List Item3</li>
-                              <li>List Item4</li>
-                        </ul>
-                        <ul class="styled-list list-style-circle flex-items">
-                              <li>List Item1</li>
-                              <li>List Item2</li>
-                              <li>List Item3</li>
-                              <li>List Item4</li>
-                        </ul>
-                  </div>
-                  <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=817.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=11px&lh=145%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522unordered-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522styled-list%2520list-style-disc%2520flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522styled-list%2520list-style-sqare%2520flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522styled-list%2520list-style-circle%2520flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        style="width: 100%; 
-                              height: 600px; 
-                              border:0;
-                               transform: scale(1); 
-                               overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-                  </iframe>
-                  <!---------- Ordered List ---------->
-                  <h1 class="component-heading">Ordered List Without Bullets</h1>
-                  <p class="component-description">An ordered list has an inherent order. This type of list is used when
-                        the sequence of items is important and each item needs to be numbered. </p>
-                  <div class="unordered-list">
-                        <ol class="styled-list flex-items style-type-decimal">
-                              <li>List Item1</li>
-                              <li>List Item2</li>
-                              <li>List Item3</li>
-                              <li>List Item4</li>
-                        </ol>
-                        <ol class="styled-list flex-items style-type-alpha">
-                              <li>List Item1</li>
-                              <li>List Item2</li>
-                              <li>List Item3</li>
-                              <li>List Item4</li>
-                        </ol>
-                        <ol class="styled-list flex-items style-type-roman">
-                              <li>List Item1</li>
-                              <li>List Item2</li>
-                              <li>List Item3</li>
-                              <li>List Item4</li>
-                        </ol>
-                        <ol class="styled-list flex-items style-type-upper-alpha">
-                              <li>List Item1</li>
-                              <li>List Item2</li>
-                              <li>List Item3</li>
-                              <li>List Item4</li>
-                        </ol>
-                  </div>
-                  <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=817.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=11px&lh=145%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522unordered-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522styled-list%2520flex-items%2520style-type-decimal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522styled-list%2520flex-items%2520style-type-alpha%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522styled-list%2520flex-items%2520style-type-roman%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522styled-list%2520flex-items%2520style-type-upper-alpha%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        style="width: 100%;
-                         height:700px;
-                          border:0; 
-                          transform: scale(1);
-                           overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-                  </iframe>
-                  <!----------Stacked List --------->
-                  <h1 class="component-heading">Stacked List</h1>
-                  <p class="component-description">A stacked list is a list used in Module Pool programming.
-
-                        In an ideal scenario,you will define the screen sequence in either a static or a dynamic way.
-                  </p>
-                  <div class="unordered-list">
-                        <ul class="styled-list flex-items stacked-list">
-                              <li>Notification List 1</li>
-                              <li>Notification List 2</li>
-                              <li>Notification List 3</li>
-                              <li>Notification List 4</li>
-                        </ul>
-                  </div>
-                  <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=324.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=11px&lh=145%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522unordered-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522styled-list%2520flex-items%2520stacked-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ENotification%2520List%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ENotification%2520List%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ENotification%2520List%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ENotification%2520List%25204%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        style="width:100%; height: 430px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                  </iframe>
-            </div>
-
-            <!--Footer Started-->
-            <footer class="footer">
-                  <div class="footer-header">Made with <span style="color: red;">❤</span> by Divya Namdev</div>
-                  <ul class="social-link list-non-bullet">
-                        <li class="list-item-inline">
-                              <a class="link" href="https://github.com/Divya70">github</a>
-                        </li>
-                        <li class="list-item-inline">
-                              <a class="link" href="https://www.linkedin.com/in/divya-namdev-115a1619a">Linkedin</a>
-                        </li>
-                        <li class="list-item-inline">
-                              <a class="link" href="https://twitter.com/DivyaSi32558841?s=08">twitter</a>
-                        </li>
-                  </ul>
-                  <div class="copyright">copyright ©2022 Awesome UI. All Right Reserved</div>
-            </footer>
+  <body>
+    <div class="container">
+      <div class="navigation">
+        <div class="cl-name">
+          <span class="logo-name">AWESOME UI</span>
+          <span class="sub-title-name">Let's Build Together</span>
+        </div>
+        <div class="nav-home">
+          <ul class="nav-home-page">
+            <li><a href="/index.html" class="home">Home</a></li>
+            <li><a href="/docs.html" class="home">Docs</a></li>
+          </ul>
+        </div>
       </div>
-</body>
+      <aside class="sidebar">
+        <h3 class="sidebar-title">Getting Started</h3>
+        <div class="sidebar-components">
+          <ul class="bullet-none list-none">
+            <li>
+              <a href="/docs.html">Installation</a>
+            </li>
+            <li>
+              <a href="/pages/Alert/alert.html">Alert</a>
+            </li>
+            <li>
+              <a href="/pages/Badge/badge.html">Badge</a>
+            </li>
+            <li>
+              <a href="/pages/Button/button.html">Button</a>
+            </li>
+            <li>
+              <a href="/pages/Avatar/avatar.html">Avatar</a>
+            </li>
+            <li>
+              <a href="/pages/Image/image.html">Image</a>
+            </li>
+            <li>
+              <a href="/pages/Input/input.html">Input</a>
+            </li>
+            <li>
+              <a href="/pages/Navigation/navigation.html">Navigation</a>
+            </li>
+            <li>
+              <a href="/pages/Lists/lists.html">Lists</a>
+            </li>
+            <li>
+              <a href="/pages/Card/card.html">Card</a>
+            </li>
+            <li>
+              <a href="/pages/Modal/modal.html">Modal</a>
+            </li>
+            <li>
+              <a href="/pages/Rating/rating.html">Rating</a>
+            </li>
+            <li>
+              <a href="/pages/Slider/slider.html">Slider</a>
+            </li>
+            <li>
+              <a href="/pages/Simplified-Grid/simplified-grid.html"
+                >Simplified Grid</a
+              >
+            </li>
+            <li>
+              <a href="/pages/Text-Utilities/text-utilities.html"
+                >Text Utilities</a
+              >
+            </li>
+            <li>
+              <a href="/pages/Toast/toast.html">Toast</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
 
+      <div class="main-content">
+        <h1 class="component-heading">Basic Lists</h1>
+        <p class="component-description">
+          Lists are a continuous group of text or images. They are composed of
+          items containing primary and supplemental actions, which are
+          represented by icons and text.
+        </p>
+        <!-- basic list start -->
+        <div class="list-icon-container">
+          <h3>Basic Lists</h3>
+          <div class="user list"><i class="fas fa-user"></i>Profile</div>
+          <div class="inbox list"><i class="fas fa-inbox"></i>Inbox</div>
+          <div class="setting list"><i class="fas fa-cog"></i>Setting</div>
+          <div class="stared list"><i class="fas fa-star"></i>Started</div>
+          <div class="gmail list"><i class="fas fa-envelope"></i>Gmail</div>
+          <div class="contacts list">
+            <i class="fas fa-id-card-alt"></i>Contacts
+          </div>
+          <div class="password list"><i class="fas fa-unlock"></i>Password</div>
+          <div class="sign-out list">
+            <i class="fas fa-sign-out-alt"></i>Sign Out
+          </div>
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=817.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=11px&lh=145%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-icon-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EBasic%2520Lists%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522user%2520list%2522%253E%253Ci%2520class%253D%2522fas%2520fa-user%2522%253E%253C%252Fi%253EProfile%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522inbox%2520list%2522%253E%253Ci%2520class%253D%2522fas%2520fa-inbox%2522%253E%253C%252Fi%253EInbox%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522setting%2520list%2522%253E%253Ci%2520class%253D%2522fas%2520fa-cog%2522%253E%253C%252Fi%253ESetting%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stared%2520list%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253EStarted%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522gmail%2520list%2522%253E%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253EGmail%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522contacts%2520list%2522%253E%253Ci%2520class%253D%2522fas%2520fa-id-card-alt%2522%253E%253C%252Fi%253EContacts%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522password%2520list%2522%253E%253Ci%2520class%253D%2522fas%2520fa-unlock%2522%253E%253C%252Fi%253EPassword%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sign-out%2520list%2522%253E%253Ci%2520class%253D%2522fas%2520fa-sign-out-alt%2522%253E%253C%252Fi%253ESign%2520Out%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+          style="
+            width: 100%;
+            height: 400px;
+            border: 0;
+            margin: 2rem;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+        <!----------- unordered List code---------->
+        <h1 class="component-heading">Unordered List With Bullets</h1>
+        <p class="component-description">
+          An unordered list has no inherent order and the sequence of items
+          isn't important. We may use this type of list, for example, to show
+          the ingredients for a recipe.
+        </p>
+        <div class="unordered-list">
+          <ul class="styled-list list-style-disc flex-items">
+            <li>List Item1</li>
+            <li>List Item2</li>
+            <li>List Item3</li>
+            <li>List Item4</li>
+          </ul>
+          <ul class="styled-list list-style-sqare flex-items">
+            <li>List Item1</li>
+            <li>List Item2</li>
+            <li>List Item3</li>
+            <li>List Item4</li>
+          </ul>
+          <ul class="styled-list list-style-circle flex-items">
+            <li>List Item1</li>
+            <li>List Item2</li>
+            <li>List Item3</li>
+            <li>List Item4</li>
+          </ul>
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=817.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=11px&lh=145%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522unordered-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522styled-list%2520list-style-disc%2520flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522styled-list%2520list-style-sqare%2520flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522styled-list%2520list-style-circle%2520flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+          style="
+            width: 100%;
+            height: 600px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+        <!---------- Ordered List ---------->
+        <h1 class="component-heading">Ordered List Without Bullets</h1>
+        <p class="component-description">
+          An ordered list has an inherent order. This type of list is used when
+          the sequence of items is important and each item needs to be numbered.
+        </p>
+        <div class="unordered-list">
+          <ol class="styled-list flex-items style-type-decimal">
+            <li>List Item1</li>
+            <li>List Item2</li>
+            <li>List Item3</li>
+            <li>List Item4</li>
+          </ol>
+          <ol class="styled-list flex-items style-type-alpha">
+            <li>List Item1</li>
+            <li>List Item2</li>
+            <li>List Item3</li>
+            <li>List Item4</li>
+          </ol>
+          <ol class="styled-list flex-items style-type-roman">
+            <li>List Item1</li>
+            <li>List Item2</li>
+            <li>List Item3</li>
+            <li>List Item4</li>
+          </ol>
+          <ol class="styled-list flex-items style-type-upper-alpha">
+            <li>List Item1</li>
+            <li>List Item2</li>
+            <li>List Item3</li>
+            <li>List Item4</li>
+          </ol>
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=817.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=11px&lh=145%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522unordered-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522styled-list%2520flex-items%2520style-type-decimal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522styled-list%2520flex-items%2520style-type-alpha%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522styled-list%2520flex-items%2520style-type-roman%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522styled-list%2520flex-items%2520style-type-upper-alpha%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item2%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+          style="
+            width: 100%;
+            height: 700px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+        <!----------Stacked List --------->
+        <h1 class="component-heading">Stacked List</h1>
+        <p class="component-description">
+          A stacked list is a list used in Module Pool programming. In an ideal
+          scenario,you will define the screen sequence in either a static or a
+          dynamic way.
+        </p>
+        <div class="unordered-list">
+          <ul class="styled-list flex-items stacked-list">
+            <li>Notification List 1</li>
+            <li>Notification List 2</li>
+            <li>Notification List 3</li>
+            <li>Notification List 4</li>
+          </ul>
+        </div>
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=324.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=11px&lh=145%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522unordered-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522styled-list%2520flex-items%2520stacked-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ENotification%2520List%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ENotification%2520List%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ENotification%2520List%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253ENotification%2520List%25204%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+          style="
+            width: 100%;
+            height: 430px;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
+      </div>
+
+      <!--Footer Started-->
+      <footer class="footer">
+        <div class="footer-header">
+          Made with <span style="color: red">❤</span> by Divya Namdev
+        </div>
+        <ul class="social-link list-non-bullet">
+          <li class="list-item-inline">
+            <a class="link" href="https://github.com/Divya70">github</a>
+          </li>
+          <li class="list-item-inline">
+            <a
+              class="link"
+              href="https://www.linkedin.com/in/divya-namdev-115a1619a"
+              >Linkedin</a
+            >
+          </li>
+          <li class="list-item-inline">
+            <a class="link" href="https://twitter.com/DivyaSi32558841?s=08"
+              >twitter</a
+            >
+          </li>
+        </ul>
+        <div class="copyright">
+          copyright ©2022 Awesome UI. All Right Reserved
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
